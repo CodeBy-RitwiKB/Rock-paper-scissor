@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #154D71;
+    color: #FFFFFF;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choice:hover{ 
+    cursor:pointer;
+    background-color:#1C6EA4;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.score-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user,#computer{
+    font-size: 3rem;
+}
+
+.result{
+    margin-top: 3rem;
+ }
+
+#msg{
+    background-color: #33A1E0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+
+
+/* Add to your style.css */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.dark {
+    background-color: #222;
+    color: #eee;
+}
+
+/* Style the toggle button for both modes */
+.toggle-mode-btn {
+    transition: background-color 0.5s, color 0.5s;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+body.light .toggle-mode-btn {
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+body.dark .toggle-mode-btn {
+    background-color: #333;
+    color: #eee;
+}
