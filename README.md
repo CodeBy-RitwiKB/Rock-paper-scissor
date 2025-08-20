@@ -9,3 +9,5 @@ A simple and fun Rock-Paper-Scissors game built with HTML, CSS, and JavaScript.
 🏆 Keeps track of score (User vs Computer)
 
 📱 Responsive and easy-to-play in browser
+
+You can Visit site using link: https://codeby-ritwikb.github.io/Rock-paper-scissor/
